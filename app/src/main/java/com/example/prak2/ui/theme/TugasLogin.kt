@@ -38,13 +38,13 @@ fun TugasLogin(modifier: Modifier = Modifier) {
 
             Text(
                 text = "Login",
-                color = Color.Blue,
+                color = Color.Black,
                 fontSize = 24.sp,
-                fontWeight = FontWeight.Bold
+                fontWeight = FontWeight.ExtraBold
             )
             Text(
                 text = "Ini adalah halaman login",
-                color = Color.White
+                color = Color.Red
             )
 
             Spacer(modifier = Modifier.height(30.dp))
@@ -65,12 +65,12 @@ fun TugasLogin(modifier: Modifier = Modifier) {
 
             Text(
                 text = "Nafis spalanzani indiarto",
-                color = Color.White,
+                color = Color.Red,
                 fontWeight = FontWeight.Bold
             )
             Text(
                 text = "20240140034",
-                color = Color.White,
+                color = Color.Red,
                 fontSize = 20.sp,
                 fontWeight = FontWeight.Bold
             )
