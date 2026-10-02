@@ -84,6 +84,15 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 contentScale = ContentScale.Crop
             )
 
+            Image(
+                painter = painterResource(id = R.drawable.foto_profile),
+                contentDescription = "Foto Profil",
+                modifier = Modifier
+                    .size(280.dp)
+                    .clip(CircleShape),
+                contentScale = ContentScale.Crop
+            )
+
         }
     }
 }
