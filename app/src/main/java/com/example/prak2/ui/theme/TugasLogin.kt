@@ -20,5 +20,9 @@ import com.example.prak2.R
 @Composable
 fun TugasLogin(modifier: Modifier = Modifier) {
 
+    Box(
+        modifier = Modifier.fillMaxSize()
+    ) {
 
+    }
 }
