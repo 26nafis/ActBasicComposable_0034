@@ -12,6 +12,17 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.res.painterResource
+import androidx.compose.foundation.Image
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.unit.sp
+import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.background
+import com.example.prak2.R
 
 
 @Composable
@@ -118,7 +129,7 @@ fun TataLetakBoxColumnRow(modifier: Modifier) {
             modifier = modifier
                 .fillMaxWidth()
                 .height(110.dp)
-                .background(color = Color.Yellow),
+                .background(color = Color.Black),
             contentAlignment = Alignment.Center
         ) {
             Column {
@@ -155,10 +166,10 @@ fun TataLetakBoxColumnRow(modifier: Modifier) {
         ) {
             Image(
                 painter = gambar,
-                contentDescription = null,
-                contentScale = ContentScale.Fit
+                contentDescription = "foto",
+                modifier = Modifier.fillMaxSize(),
+                contentScale = ContentScale.Crop
             )
-
             Text(
                 text = "My Music",
                 fontSize = 50.sp,
