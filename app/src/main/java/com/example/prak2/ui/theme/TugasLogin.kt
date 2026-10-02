@@ -75,6 +75,15 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold
             )
 
+            Spacer(modifier = Modifier.height(20.dp))
+
+            Image(
+                painter = painterResource(id = R.drawable.foto_profile),
+                contentDescription = "Foto Profil",
+                modifier = Modifier.size(280.dp),
+                contentScale = ContentScale.Crop
+            )
+
         }
     }
 }
