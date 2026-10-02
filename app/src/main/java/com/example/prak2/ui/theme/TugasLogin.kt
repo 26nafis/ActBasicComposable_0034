@@ -65,24 +65,17 @@ fun TugasLogin(modifier: Modifier = Modifier) {
 
             Text(
                 text = "Nafis spalanzani indiarto",
-                color = Color.Blue,
+                color = Color.White,
                 fontWeight = FontWeight.Bold
             )
             Text(
                 text = "20240140034",
-                color = Color.Black,
-                fontSize = 16.sp,
+                color = Color.White,
+                fontSize = 20.sp,
                 fontWeight = FontWeight.Bold
             )
 
             Spacer(modifier = Modifier.height(20.dp))
-
-            Image(
-                painter = painterResource(id = R.drawable.foto_profile),
-                contentDescription = "Foto Profil",
-                modifier = Modifier.size(280.dp),
-                contentScale = ContentScale.Crop
-            )
 
             Image(
                 painter = painterResource(id = R.drawable.foto_profile),
