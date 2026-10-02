@@ -63,6 +63,12 @@ fun TugasLogin(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold
             )
 
+            Text(
+                text = "Nafis spalanzani indiarto",
+                color = Color.Blue,
+                fontWeight = FontWeight.Bold
+            )
+
         }
     }
 }
