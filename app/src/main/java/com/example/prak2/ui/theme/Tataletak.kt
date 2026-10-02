@@ -72,5 +72,13 @@ fun TataLetakBox(modifier: Modifier) {
 fun TataLetakColumnRow(modifier: Modifier) {
     Column {
 
+        // Baris1
+        Row(
+            modifier = modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.SpaceEvenly
+        ) {
+            Text(text = "Komponen1")
+            Text(text = "Komponen2")
+        }
     }
 }
