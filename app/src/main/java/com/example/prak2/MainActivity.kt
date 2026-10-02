@@ -13,6 +13,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.prak2.ui.theme.Prak2Theme
 import com.example.prak2.ui.theme.TataLetakBoxColumnRow
+import com.example.prak2.ui.theme.TugasLogin
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,10 +22,11 @@ class MainActivity : ComponentActivity() {
         setContent {
             Prak2Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    TataLetakBoxColumnRow(
+                    TugasLogin(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
+
             }
         }
     }
